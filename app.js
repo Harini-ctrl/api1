@@ -30,7 +30,7 @@ initializeDbAndServer();
 
 const convertDbObjectToResponseObject = (dbObject) => {
   return {
-    MovieName: dbObject.movie_name,
+    movieName: dbObject.movie_name,
   };
 };
 
